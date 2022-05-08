@@ -1,0 +1,57 @@
+#+title: Receipt Part 2
+#+author: Jom Dollesin
+
+* Question
+
+Create a Purchase Receipt System using java. Follow the format given below.
+
+#+begin_src txt
+
+       PURCHASE RECEIPT SYSTEM
+         INPUT DETAILS BELOW
+  ********************************
+  Enter Cashier Name:         JUAN
+  ENTER O.R No.:           0325325
+  ********************************
+  Enter Number of Items:   2
+  ********************************
+  Enter Item Name:      Milk
+  Enter Item Price:     8
+  Enter Item Quantity:  2
+  --------------------------------
+  Enter Item Name:      Milo
+  Enter Item Price:     6
+  Enter Item Quantity:  6
+  --------------------------------
+  TOTAL PAYMENT:     PHP 54.6
+  ********************************
+  Enter Customer Payment: 20
+  Enter Customer Payment: 30
+  Enter Customer Payment: 60
+  ********************************
+           ABC Company
+  Mc Arthur Highway, Digos City
+  Tel.#: 553-2847 Fax: 679652382
+     GST Reg No. 00023243426
+          RCB: 53421342
+
+         PURCHASE RECEIPT
+  Cashier: Juan
+  Date: 5/08/2022  O.R No.:0325325
+  ********************************
+  Qty.      Item/s         Price/s
+  --------------------------------
+  2         Milk           16.00
+  6         Milo           36.00
+  ********************************
+  SUBTOTAL               Php 52.00
+  VAT(5%)                Php 2.6
+
+  TOTAL                  Php 54.6
+
+  CASH                   Php 60.00
+  CHANGE                 Php 5.4
+
+       THANK YOU FOR SHOPPING!
+
+#+end_src

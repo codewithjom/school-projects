@@ -1,0 +1,6 @@
+#+title: Receipt Part 1
+#+author: Jom Dollesin
+
+* Question
+
+Create a java program that ask the users how many items he bought in the store. Then specifically ask what are those item, quantity and price. Then compute for the subtotal and the total amount to be paid.
