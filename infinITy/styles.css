@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaebef;
+  color: #313d4b;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #25405b;
+  padding: 5px;
+}
+
+h1 {
+  margin-top: 10px;
+  color: #313d4b;
+  font-size: 50px;
+  font-family: "Kanit", sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.center,
+.headline {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.lorem {
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 20px;
+}
+
+.infinity {
+  padding-left: 50px;
+  color: #f8fdfe;
+  font-family: "Kanit", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.author {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-top: 40px;
+}
+
+.table-head1 {
+  background-color: #2096f3;
+  color: #2096f3;
+}
+
+.table-data1 {
+  background-color: #91edff;
+  padding: 5px;
+  padding-right: 500px;
+  font-size: 20px;
+}
+
+.table-head2 {
+  background-color: #4cae51;
+  color: #4cae51;
+}
+
+.table-data2 {
+  background-color: #bafec1;
+  padding: 5px;
+  padding-right: 500px;
+  font-size: 20px;
+}
+
+.table-head3 {
+  background-color: #fd9604;
+  color: #fd9604;
+}
+
+.table-data3 {
+  background-color: #f7feba;
+  padding: 5px;
+  padding-right: 500px;
+  font-size: 20px;
+}
+
+.table-head4 {
+  background-color: #fd4137;
+  color: #fd4137;
+}
+
+.table-data4 {
+  background-color: #fedaba;
+  padding: 5px;
+  padding-right: 500px;
+  font-size: 20px;
+}
+
+.email {
+  font-size: 23px;
+  background: white;
+  color: #cdcdcd;
+  padding: 10px;
+  padding-right: 350px;
+  margin-left: 320px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.submit {
+  font-size: 23px;
+  background-color: #273f58;
+  color: #dde5ec;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #e4e2e3;
+  padding: 10px 0;
+}
+
+.foot-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
+.col {
+  width: 25%;
+  padding: 0 15px;
+  margin: 30px;
+  text-align: center;
+  background-color: #21a8c5;
+  border-radius: 10px;
+}
+
+.col h2 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
+  color: #fabe39;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+li {
+  margin: 20px;
+  padding: 25px;
+  color: white;
+}
